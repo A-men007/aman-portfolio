@@ -176,10 +176,9 @@ export default function About() {
 
         {/* Resume Download */}
         <div style={{ textAlign: "center" }}>
-          
+          <a
             href="/Amanpreet_Gill_Resume.pdf"
             download
-            <a
             style={{
               padding: "12px 40px",
               background: "transparent",
