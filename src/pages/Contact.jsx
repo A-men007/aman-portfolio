@@ -123,7 +123,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "40px"}}>
 
           {/* Contact Form */}
           <div style={{ background: "#0d0d14", border: "1px solid #1a1a2e", borderRadius: "12px", padding: "32px", display: "flex", flexDirection: "column", gap: "16px" }}>
