@@ -39,6 +39,9 @@ export default function Home() {
         </p>
 
         <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
+          <Link to="/about" style={{ padding: "12px 32px", border: "1px solid #00e5ff", color: "#00e5ff", borderRadius: "6px", fontWeight: 700, textDecoration: "none", fontSize: "14px", letterSpacing: "1px" }}>
+            ABOUT ME
+          </Link>
           <Link to="/projects" style={{ padding: "12px 32px", background: "#00e5ff", color: "#0a0a0f", borderRadius: "6px", fontWeight: 700, textDecoration: "none", fontSize: "14px", letterSpacing: "1px" }}>
             VIEW PROJECTS
           </Link>
