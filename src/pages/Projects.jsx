@@ -26,7 +26,7 @@ const projects = [
     github: "https://github.com/A-men007/file_chain_tagging",
   },
   {
-    title: "GCP CI/CD Pipeline",
+    title: "Google Cloud Platform CI/CD Pipeline",
     brief: "Cloud deployment pipeline built on Google Cloud Platform.",
     gradient: "linear-gradient(90deg, #00e5ff, #00ff88)",
     description: "Designed and deployed a full CI/CD pipeline on GCP using Cloud Run, Artifact Registry, Docker, and Kubernetes. Includes automated build triggers, containerized deployments, and GCP logging and monitoring for full observability.",
