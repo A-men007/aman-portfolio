@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "SmartPay",
-    brief: "Spring Boot banking API built during FDM training.",
+    brief: "Spring Boot banking API.",
     gradient: "linear-gradient(90deg, #ffb300, #ff6b00)",
     description: "A full-featured banking REST API built with Spring Boot, Spring Data JPA, and microservices architecture. Includes account management, transactions, and loan processing. Built with TDD using JUnit and Mockito, following SOLID principles throughout.",
     stack: ["Java", "Spring Boot", "JPA", "REST API", "JUnit", "Mockito"],
@@ -19,9 +19,9 @@ const projects = [
   },
   {
     title: "HashProof",
-    brief: "Blockchain-based file verification system on Aptos.",
+    brief: "Blockchain-based file verification system on Aptos. Built during Consensus Hackathon",
     gradient: "linear-gradient(90deg, #ff6b00, #ff2d7a)",
-    description: "A file verification and provenance system leveraging the Aptos blockchain to enable on-chain tracking of off-chain files. Uses Move smart contracts to create immutable records of file hashes, enabling tamper-proof file authenticity verification.",
+    description: "A file verification system leveraging the Aptos blockchain to enable on-chain tracking of off-chain files. Uses Move smart contracts to create immutable records of file hashes, enabling tamper-proof file authenticity verification.",
     stack: ["Aptos", "Move", "Blockchain", "File Verification"],
     github: "https://github.com/A-men007/file_chain_tagging",
   },
