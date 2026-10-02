@@ -58,6 +58,9 @@ export default function Contact() {
     } catch (err) {
       setFormStatus("error");
     }
+    {formStatus === "submitError" && (
+      <p style={{ color: "#ff4444", fontSize: "13px", margin: 0 }}>Something went wrong sending your message. Please try again.</p>
+    )}
   };
 
   const handleChat = async () => {
